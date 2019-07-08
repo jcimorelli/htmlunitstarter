@@ -1,0 +1,66 @@
+.textInput {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 3px 5px;
+}
+
+.wideTextInput {
+	width: 250px;
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 3px 5px;
+}
+
+.narrowTextInput {
+	width: 50px;
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 3px 5px;
+}
+
+.comboInput {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 4px 6px;
+}
+
+.checkboxInput {
+	-ms-transform: scale(1.5); /* IE */
+	-moz-transform: scale(1.5); /* FF */
+	-webkit-transform: scale(1.5); /* Safari and Chrome */
+	-o-transform: scale(1.5); /* Opera */
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.button {
+	margin-right: 10px;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd;
+}
+
+.highlighted {
+	font-weight: bold;
+}

@@ -1,0 +1,6 @@
+htmlunitstarter/src/main/resources/htmlunitstarter.properties
+htmlunitstarter/.settings/org.eclipse.wst.common.component
+/bin/
+/.project
+/.classpath
+/target/
