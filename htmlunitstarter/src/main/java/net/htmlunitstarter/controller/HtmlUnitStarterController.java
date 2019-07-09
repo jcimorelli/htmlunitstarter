@@ -22,7 +22,7 @@ public class HtmlUnitStarterController {
 
    @RequestMapping(method = RequestMethod.GET)
    public ModelAndView open( HttpServletRequest request, ModelMap modelMap ) throws IOException {
-      final ModelAndView model = new ModelAndView( "net.htmlunitstarter" );
+      final ModelAndView model = new ModelAndView( "htmlunitstarter" );
       model.addObject( "someProperty", 1 );
       model.addObject( "someOtherProperty", "blah" );
       return model;
