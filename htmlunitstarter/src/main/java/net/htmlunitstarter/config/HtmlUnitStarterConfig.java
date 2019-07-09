@@ -33,7 +33,7 @@ import net.htmlunitstarter.schedule.HtmlUnitStarterScheduler;
 @EnableWebMvc
 @EnableSpringConfigured
 @ComponentScan({ "net.htmlunitstarter.config", "net.htmlunitstarter.data", "net.htmlunitstarter.controller", "net.htmlunitstarter.utl" })
-@PropertySource(value = { "classpath:net.htmlunitstarter.properties", "classpath:filecache.properties" })
+@PropertySource(value = { "classpath:htmlunitstarter.properties", "classpath:filecache.properties" })
 @EnableTransactionManagement
 public class HtmlUnitStarterConfig extends WebMvcConfigurerAdapter {
 
