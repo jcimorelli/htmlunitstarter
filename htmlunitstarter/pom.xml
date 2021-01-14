@@ -16,7 +16,7 @@
 		<maven.plugin.version>2.5</maven.plugin.version>
 		<spring.version>4.0.6.RELEASE</spring.version>
 		<aspectj.version>1.8.2</aspectj.version>
-		<apache.poi.version>3.9</apache.poi.version>
+		<apache.poi.version>4.1.2</apache.poi.version>
 	</properties>
 
 	<dependencies>
